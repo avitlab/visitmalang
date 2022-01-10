@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #02152D;
+}
+
+.container {
+    max-width: 1800px;
+    padding: 0 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-icon {
+    position: absolute;
+    width: 141px;
+    height: 55px;
+    left: 100px;
+    top: 7px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    height: 80px;
+    width: 100%;
+    background: rgb(15, 15, 22);
+    opacity: 1;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: rgb(15, 15, 22);
+}
+
+.progress-bar {
+    height: 6px;
+    background: #FFE872;
+    width: 0%;
+}
+
+.right-header {
+    float: right;
+}
+
+.right-header a {
+    position: static;
+    font-family: Spline Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 71px;
+    color: #f2f2f2;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.right-header a:hover {
+    border-bottom: 3px solid #FFE872;
+}
+
+.right-header a.home-active {
+    border-bottom: 3px solid #FFE872;
+    margin: 0 25px;
+    padding: 0 15px 0 15px;
+}
+
+.right-header a.destination {
+    margin: 0 25px;
+    padding: 0 15px 0 15px;
+}
+
+.right-header a.gallery {
+    margin: 0 25px;
+    padding: 0 15px 0 15px;
+}
+
+.right-header a.about-us {
+    margin-left: 35px;
+    padding: 0;
+}
+
+.page-not-found {
+    margin: 12% 0 0 0;
+    text-align: center;
+}
+
+.page-not-found img {
+    width: 695px;
+    height: 392px;
+}
+
+footer {
+    background: rgb(15, 15, 22);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+}
+
+footer hr {
+    margin: 0px 0 0 0;
+}
+
+.copyright {
+    margin: 20px 0 0 0;
+    padding-bottom: 20px;
+}
+
+.copyright h5 {
+    font-family: Spline Sans;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}

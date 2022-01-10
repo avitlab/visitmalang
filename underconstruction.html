@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction (VISIT MALANG by avitlab)</title>
+    <link rel="icon" type="icon-visitmalang" href=".\images\favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spline+Sans&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda&display=swap" />
+    <link rel="stylesheet" href="underconstruction.css" />
+    <link rel="stylesheet" href="underconstructionresponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <div class="container">
+            <div class="left-header">
+                <a href="index.html"><img class="logo-icon" src=".\images\logo_icon.png"></a>
+            </div>
+            <div class="right-header">
+                <a class="home-active" href="#">home</a>
+                <a class="destination" href="#">destination</a>
+                <a class="gallery" href="#">gallery</a>
+                <a class="about-us" href="#">about us</a>
+            </div>
+        </div>
+    </header>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <div class="page-not-found">
+        <div class="container">
+            <img src="./images/construction.png">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <hr width="100%" color="white">
+            <div class="copyright">
+                <h5>visit malang by avitlab - 2022 all rights reserved</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

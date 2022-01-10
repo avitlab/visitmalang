@@ -1,0 +1,89 @@
+@media all and (max-width: 1300px) {
+    .article-wrapper hr {
+        margin: 120px 0 0 0;
+    }
+}
+
+@media all and (max-width: 1250px) {
+    .column img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .overlay-card {
+        width: 300px;
+    }
+
+    .review-wrapper h3 {
+        margin-top: 10%;
+    }
+
+    .right-article img {
+        margin-top: 120px;
+    }
+
+    .left-review {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 1130px) {
+    .article-wrapper hr {
+        margin: 150px 0 0 0;
+    }
+
+    .column img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .overlay-card {
+        width: 250px;
+    }
+
+    .review-wrapper h3 {
+        margin-top: 25%;
+        font-size: 32pt;
+    }
+
+    .left-review img {
+        margin-top: 120px;
+        width: 400px;
+        height: 140px;
+    }
+}
+
+@media all and (max-width: 1055px) {
+    .article-wrapper hr {
+        margin: 300px 0 0 0;
+    }
+
+    .right-article img {
+        margin-top: 150px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .right-article {
+        width: 30%;
+    }
+
+    .right-article img {
+        margin-top: 150px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .column img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .overlay-card {
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 850px) {}
+
+@media all and (max-width: 350px) {}
